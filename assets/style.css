@@ -1,0 +1,31 @@
+:root{--navy:#122447;--deep:#0b1a36;--teal:#74e4d5;--gold:#ffd46a;--cream:#fff8e8;--ink:#17264c;--muted:#aac9ed}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:"Nunito",ui-rounded,"SF Pro Rounded",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:linear-gradient(180deg,#168ee7 0%,#5fc0f5 38%,var(--cream) 38%);color:var(--ink);line-height:1.55}
+a{color:#0b6fb8}
+img{max-width:100%;height:auto;display:block}
+.hero{max-width:1100px;margin:0 auto;padding:28px 16px 8px;text-align:center}
+.feature{border-radius:26px;box-shadow:0 18px 40px rgba(11,26,54,.28);margin:0 auto;width:100%}
+.hero-text{background:var(--navy);color:#fff;border-radius:26px;margin:-48px auto 0;position:relative;max-width:760px;padding:22px 20px 26px;box-shadow:0 12px 30px rgba(11,26,54,.25)}
+.icon{border-radius:24px;margin:-70px auto 10px;border:5px solid #fff;background:#fff}
+h1{font-size:clamp(28px,5vw,44px);margin:.2em 0;line-height:1.15}
+.lead{font-size:clamp(17px,2.4vw,21px);color:var(--muted);margin:.4em 0 1em}
+.badge{display:inline-block;background:var(--gold);color:var(--ink);font-weight:800;padding:12px 22px;border-radius:999px;box-shadow:0 5px 0 #c99a2e}
+main{max-width:1100px;margin:0 auto;padding:16px}
+.points{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:18px 0}
+.points div{background:#fff;border-radius:20px;padding:18px;box-shadow:0 6px 0 #e3d8bd}
+.points b{display:block;font-size:19px;margin-bottom:4px}
+.points span{color:#4a5a7a}
+.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:22px 0}
+.shots img{border-radius:18px;box-shadow:0 8px 20px rgba(11,26,54,.18);width:100%}
+.langs{text-align:center;color:#4a5a7a;margin:18px 0 8px}
+.foot{text-align:center;padding:26px 16px 34px;color:#4a5a7a}
+.doc{background:var(--cream)}
+.bar{background:var(--navy);padding:12px 16px}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:800;max-width:860px;margin:0 auto}
+.brand img{border-radius:10px}
+.paper{max-width:860px;margin:24px auto;background:#fff;border-radius:22px;padding:22px clamp(16px,4vw,40px) 30px;box-shadow:0 6px 0 #e3d8bd}
+.paper h1{font-size:clamp(26px,4vw,36px)}
+.paper h2{font-size:21px;margin-top:1.6em}
+.meta{color:#5d6b88;font-size:15px}
+code{background:#eef3fa;padding:1px 6px;border-radius:6px}
